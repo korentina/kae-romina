@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3ra PreEntrega Kae, Romina</title>
+</head>
+<body>
+    <h1>Ingreso a Seamas</h1>
+    <p>Por favor, ingrese su nombre y numero de CUIT:</p><br>
+
+    <form id="formularioIngresar">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <div id="mensajeErrorNombre" class="error"></div><br><br>
+        
+        <label for="cuit">CUIT:</label>
+        <input type="text" id="cuit" name="cuit" title="El CUIT debe contener 11 dígitos numéricos" required>
+        <div id="mensajeErrorCuit" class="error"></div><br><br> 
+
+        <button type="button" id="validarDatos">Iniciar Compra</button>
+    </form>
+
+    <script src="../js/datos.js"></script>
+    
+</body>
+</html>
