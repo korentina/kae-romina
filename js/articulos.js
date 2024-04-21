@@ -89,7 +89,7 @@ function actualizarCarrito(){
 }
 
 function finalizarCompra() {
-    window.location.href = "resumen.html";
+    window.location.href = "../pages/cierre.html";
 }
 
 mostrarArticulos();
